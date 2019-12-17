@@ -49,17 +49,18 @@ namespace MikTeaFireBase
             List<theloaisanpham> tl = new List<theloaisanpham>();
 
             DataTable dt = new DataTable();
-
+            dt.Columns.Add("key");
+            dt.Columns.Add("ten");
             foreach (var item in theloai)
             {
-               
-                MessageBox.Show(item.Key);
-                MessageBox.Show(item.Object.Ten);
+                dt.Rows.Add(item.Key, item.Object.Ten);
+                //MessageBox.Show(item.Key);
+                //MessageBox.Show(item.Object.Ten);
             }
 
             //var observable = firebase.Child("theloaisanpham").AsObservable<theloaisanpham>().Subscribe(d => MessageBox.Show(d.Key));
 
-
+            grcGoods.DataSource = dt;
 
             Watting.CloseWaitForm();
 

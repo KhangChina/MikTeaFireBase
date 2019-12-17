@@ -303,3 +303,4 @@ D:\Project\C#\MikTeaFireBase\MikTeaFireBase\MikTeaFireBase\bin\Debug\Firebase.xm
 D:\Project\C#\MikTeaFireBase\MikTeaFireBase\MikTeaFireBase\bin\Debug\LiteDB.xml
 D:\Project\C#\MikTeaFireBase\MikTeaFireBase\MikTeaFireBase\bin\Debug\System.Reactive.xml
 >>>>>>> 39c5599f728518fc4ab7925489a321a6d4c92a4b
+D:\Project\C#\MikTeaFireBase\MikTeaFireBase\MikTeaFireBase\obj\Debug\MikTeaFireBase.Login.resources
