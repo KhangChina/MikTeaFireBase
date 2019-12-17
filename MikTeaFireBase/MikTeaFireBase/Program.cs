@@ -19,7 +19,7 @@ namespace MikTeaFireBase
             Application.SetCompatibleTextRenderingDefault(false);
 
             BonusSkins.Register();
-            Application.Run(new frmGoods());
+            Application.Run(new Login());
         }
     }
 }
